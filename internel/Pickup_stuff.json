@@ -1,0 +1,1300 @@
+{
+  "Pickup_Stuff" [
+    {
+      "Address": 4931696,
+      "Name": "Pickup_Magazine.\u0394\u03B4\u03B4_S_RPC_InsertMag$$Read",
+      "Signature": "void Pickup_Magazine_____S_RPC_InsertMag__Read (Pickup_Magazine_____S_RPC_InsertMag_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4931776,
+      "Name": "Pickup_Magazine.\u0394\u03B4\u03B4_S_RPC_InsertMag$$Write",
+      "Signature": "void Pickup_Magazine_____S_RPC_InsertMag__Write (Pickup_Magazine_____S_RPC_InsertMag_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4843232,
+      "Name": "Pickup_Magazine.\u0394\u03B4\u03B4_S_RPC_SetAmmoType$$Read",
+      "Signature": "void Pickup_Magazine_____S_RPC_SetAmmoType__Read (Pickup_Magazine_____S_RPC_SetAmmoType_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4843280,
+      "Name": "Pickup_Magazine.\u0394\u03B4\u03B4_S_RPC_SetAmmoType$$Write",
+      "Signature": "void Pickup_Magazine_____S_RPC_SetAmmoType__Write (Pickup_Magazine_____S_RPC_SetAmmoType_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4932016,
+      "Name": "Pickup_Magazine.\u0394\u03B4\u03B4_S_RPC_Magazine_SendState$$Read",
+      "Signature": "void Pickup_Magazine_____S_RPC_Magazine_SendState__Read (Pickup_Magazine_____S_RPC_Magazine_SendState_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4932112,
+      "Name": "Pickup_Magazine.\u0394\u03B4\u03B4_S_RPC_Magazine_SendState$$Write",
+      "Signature": "void Pickup_Magazine_____S_RPC_Magazine_SendState__Write (Pickup_Magazine_____S_RPC_Magazine_SendState_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 3709232,
+      "Name": "Pickup_Magazine.\u003CAnimateMagInsertCoroutine\u003Ed__54$$.ctor",
+      "Signature": "void Pickup_Magazine__AnimateMagInsertCoroutine_d__54___ctor (Pickup_Magazine__AnimateMagInsertCoroutine_d__54_o* __this, int32_t __1__state, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 3850752,
+      "Name": "Pickup_Magazine.\u003CAnimateMagInsertCoroutine\u003Ed__54$$System.IDisposable.Dispose",
+      "Signature": "void Pickup_Magazine__AnimateMagInsertCoroutine_d__54__System_IDisposable_Dispose (Pickup_Magazine__AnimateMagInsertCoroutine_d__54_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4935072,
+      "Name": "Pickup_Magazine.\u003CAnimateMagInsertCoroutine\u003Ed__54$$MoveNext",
+      "Signature": "bool Pickup_Magazine__AnimateMagInsertCoroutine_d__54__MoveNext (Pickup_Magazine__AnimateMagInsertCoroutine_d__54_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 3957168,
+      "Name": "Pickup_Magazine.\u003CAnimateMagInsertCoroutine\u003Ed__54$$System.Collections.Generic.IEnumerator\u003CSystem.Object\u003E.get_Current",
+      "Signature": "Il2CppObject* Pickup_Magazine__AnimateMagInsertCoroutine_d__54__System_Collections_Generic_IEnumerator_System_Object__get_Current (Pickup_Magazine__AnimateMagInsertCoroutine_d__54_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4939104,
+      "Name": "Pickup_Magazine.\u003CAnimateMagInsertCoroutine\u003Ed__54$$System.Collections.IEnumerator.Reset",
+      "Signature": "void Pickup_Magazine__AnimateMagInsertCoroutine_d__54__System_Collections_IEnumerator_Reset (Pickup_Magazine__AnimateMagInsertCoroutine_d__54_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 3957168,
+      "Name": "Pickup_Magazine.\u003CAnimateMagInsertCoroutine\u003Ed__54$$System.Collections.IEnumerator.get_Current",
+      "Signature": "Il2CppObject* Pickup_Magazine__AnimateMagInsertCoroutine_d__54__System_Collections_IEnumerator_get_Current (Pickup_Magazine__AnimateMagInsertCoroutine_d__54_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 3709232,
+      "Name": "Pickup_Magazine.\u003CAnimateMagDropCoroutine\u003Ed__56$$.ctor",
+      "Signature": "void Pickup_Magazine__AnimateMagDropCoroutine_d__56___ctor (Pickup_Magazine__AnimateMagDropCoroutine_d__56_o* __this, int32_t __1__state, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 3850752,
+      "Name": "Pickup_Magazine.\u003CAnimateMagDropCoroutine\u003Ed__56$$System.IDisposable.Dispose",
+      "Signature": "void Pickup_Magazine__AnimateMagDropCoroutine_d__56__System_IDisposable_Dispose (Pickup_Magazine__AnimateMagDropCoroutine_d__56_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4932944,
+      "Name": "Pickup_Magazine.\u003CAnimateMagDropCoroutine\u003Ed__56$$MoveNext",
+      "Signature": "bool Pickup_Magazine__AnimateMagDropCoroutine_d__56__MoveNext (Pickup_Magazine__AnimateMagDropCoroutine_d__56_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 3957168,
+      "Name": "Pickup_Magazine.\u003CAnimateMagDropCoroutine\u003Ed__56$$System.Collections.Generic.IEnumerator\u003CSystem.Object\u003E.get_Current",
+      "Signature": "Il2CppObject* Pickup_Magazine__AnimateMagDropCoroutine_d__56__System_Collections_Generic_IEnumerator_System_Object__get_Current (Pickup_Magazine__AnimateMagDropCoroutine_d__56_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4934992,
+      "Name": "Pickup_Magazine.\u003CAnimateMagDropCoroutine\u003Ed__56$$System.Collections.IEnumerator.Reset",
+      "Signature": "void Pickup_Magazine__AnimateMagDropCoroutine_d__56__System_Collections_IEnumerator_Reset (Pickup_Magazine__AnimateMagDropCoroutine_d__56_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 3957168,
+      "Name": "Pickup_Magazine.\u003CAnimateMagDropCoroutine\u003Ed__56$$System.Collections.IEnumerator.get_Current",
+      "Signature": "Il2CppObject* Pickup_Magazine__AnimateMagDropCoroutine_d__56__System_Collections_IEnumerator_get_Current (Pickup_Magazine__AnimateMagDropCoroutine_d__56_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 3709232,
+      "Name": "Pickup_Magazine.\u003CToggleInsertHandlerCoroutine\u003Ed__59$$.ctor",
+      "Signature": "void Pickup_Magazine__ToggleInsertHandlerCoroutine_d__59___ctor (Pickup_Magazine__ToggleInsertHandlerCoroutine_d__59_o* __this, int32_t __1__state, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 3850752,
+      "Name": "Pickup_Magazine.\u003CToggleInsertHandlerCoroutine\u003Ed__59$$System.IDisposable.Dispose",
+      "Signature": "void Pickup_Magazine__ToggleInsertHandlerCoroutine_d__59__System_IDisposable_Dispose (Pickup_Magazine__ToggleInsertHandlerCoroutine_d__59_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4942880,
+      "Name": "Pickup_Magazine.\u003CToggleInsertHandlerCoroutine\u003Ed__59$$MoveNext",
+      "Signature": "bool Pickup_Magazine__ToggleInsertHandlerCoroutine_d__59__MoveNext (Pickup_Magazine__ToggleInsertHandlerCoroutine_d__59_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 3957168,
+      "Name": "Pickup_Magazine.\u003CToggleInsertHandlerCoroutine\u003Ed__59$$System.Collections.Generic.IEnumerator\u003CSystem.Object\u003E.get_Current",
+      "Signature": "Il2CppObject* Pickup_Magazine__ToggleInsertHandlerCoroutine_d__59__System_Collections_Generic_IEnumerator_System_Object__get_Current (Pickup_Magazine__ToggleInsertHandlerCoroutine_d__59_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4943120,
+      "Name": "Pickup_Magazine.\u003CToggleInsertHandlerCoroutine\u003Ed__59$$System.Collections.IEnumerator.Reset",
+      "Signature": "void Pickup_Magazine__ToggleInsertHandlerCoroutine_d__59__System_Collections_IEnumerator_Reset (Pickup_Magazine__ToggleInsertHandlerCoroutine_d__59_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 3957168,
+      "Name": "Pickup_Magazine.\u003CToggleInsertHandlerCoroutine\u003Ed__59$$System.Collections.IEnumerator.get_Current",
+      "Signature": "Il2CppObject* Pickup_Magazine__ToggleInsertHandlerCoroutine_d__59__System_Collections_IEnumerator_get_Current (Pickup_Magazine__ToggleInsertHandlerCoroutine_d__59_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4883184,
+      "Name": "Pickup_Magazine$$get_WeaponName",
+      "Signature": "int32_t Pickup_Magazine__get_WeaponName (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4883120,
+      "Name": "Pickup_Magazine$$get_IsEmpty",
+      "Signature": "bool Pickup_Magazine__get_IsEmpty (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4883088,
+      "Name": "Pickup_Magazine$$get_Ammo",
+      "Signature": "int32_t Pickup_Magazine__get_Ammo (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4883104,
+      "Name": "Pickup_Magazine$$get_Capacity",
+      "Signature": "int32_t Pickup_Magazine__get_Capacity (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4883136,
+      "Name": "Pickup_Magazine$$get_MagType",
+      "Signature": "int32_t Pickup_Magazine__get_MagType (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4883216,
+      "Name": "Pickup_Magazine$$get_WeaponSo",
+      "Signature": "Onward_Weapons_WeaponSO_o* Pickup_Magazine__get_WeaponSo (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4883072,
+      "Name": "Pickup_Magazine$$get_AmmoType",
+      "Signature": "uint8_t Pickup_Magazine__get_AmmoType (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4883232,
+      "Name": "Pickup_Magazine$$set_AmmoType",
+      "Signature": "void Pickup_Magazine__set_AmmoType (Pickup_Magazine_o* __this, uint8_t value, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4873552,
+      "Name": "Pickup_Magazine$$Awake",
+      "Signature": "void Pickup_Magazine__Awake (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4876768,
+      "Name": "Pickup_Magazine$$OnDisable",
+      "Signature": "void Pickup_Magazine__OnDisable (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4882288,
+      "Name": "Pickup_Magazine$$ToggleMagazineInsertHandler",
+      "Signature": "void Pickup_Magazine__ToggleMagazineInsertHandler (Pickup_Magazine_o* __this, bool state, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4876864,
+      "Name": "Pickup_Magazine$$OnHandTriggerEnter",
+      "Signature": "void Pickup_Magazine__OnHandTriggerEnter (Pickup_Magazine_o* __this, HandController_o* handController, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4874336,
+      "Name": "Pickup_Magazine$$Init",
+      "Signature": "void Pickup_Magazine__Init (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4873776,
+      "Name": "Pickup_Magazine$$DestroyPickup",
+      "Signature": "void Pickup_Magazine__DestroyPickup (Pickup_Magazine_o* __this, int32_t context, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4874112,
+      "Name": "Pickup_Magazine$$EquipLocal",
+      "Signature": "void Pickup_Magazine__EquipLocal (Pickup_Magazine_o* __this, HandController_o* handController, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4877664,
+      "Name": "Pickup_Magazine$$OnStopEquipLocal",
+      "Signature": "void Pickup_Magazine__OnStopEquipLocal (Pickup_Magazine_o* __this, HandController_o* handController, bool doThrowObject, bool isBeingHolstered, bool localOnly, bool isPassingToAnotherHand, bool isBeingDestroyed, const MethodInfo* method);",
+      "TypeSignature": "viiiiiiii"
+    },
+    {
+      "Address": 4882624,
+      "Name": "Pickup_Magazine$$Unequip",
+      "Signature": "void Pickup_Magazine__Unequip (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4877232,
+      "Name": "Pickup_Magazine$$OnStartEquip",
+      "Signature": "void Pickup_Magazine__OnStartEquip (Pickup_Magazine_o* __this, Pickup_o* pickup, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4877744,
+      "Name": "Pickup_Magazine$$OnStopEquip",
+      "Signature": "void Pickup_Magazine__OnStopEquip (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4877136,
+      "Name": "Pickup_Magazine$$OnLoadoutTableSpawned",
+      "Signature": "void Pickup_Magazine__OnLoadoutTableSpawned (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4875696,
+      "Name": "Pickup_Magazine$$InsertMag",
+      "Signature": "void Pickup_Magazine__InsertMag (Pickup_Magazine_o* __this, Weapon_o* weapon, bool immediateInsert, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4878336,
+      "Name": "Pickup_Magazine$$RPC_InsertMag",
+      "Signature": "void Pickup_Magazine__RPC_InsertMag (Pickup_Magazine_o* __this, int32_t weaponViewID, bool immediateInsert, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 4874720,
+      "Name": "Pickup_Magazine$$InsertMagIntoWeapon",
+      "Signature": "void Pickup_Magazine__InsertMagIntoWeapon (Pickup_Magazine_o* __this, Weapon_o* target, bool immediateInsert, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4881808,
+      "Name": "Pickup_Magazine$$SubscribeToPickupGun",
+      "Signature": "void Pickup_Magazine__SubscribeToPickupGun (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4882720,
+      "Name": "Pickup_Magazine$$UnsubscribeFromPickupGun",
+      "Signature": "void Pickup_Magazine__UnsubscribeFromPickupGun (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4876112,
+      "Name": "Pickup_Magazine$$LoadRoundIntoWeapon",
+      "Signature": "void Pickup_Magazine__LoadRoundIntoWeapon (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4881792,
+      "Name": "Pickup_Magazine$$SetGrabbable",
+      "Signature": "void Pickup_Magazine__SetGrabbable (Pickup_Magazine_o* __this, bool isEjectedPressed, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4876160,
+      "Name": "Pickup_Magazine$$OnBoltStateChanged",
+      "Signature": "void Pickup_Magazine__OnBoltStateChanged (Pickup_Magazine_o* __this, int32_t state, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4873424,
+      "Name": "Pickup_Magazine$$AnimateMagInsertCoroutine",
+      "Signature": "System_Collections_IEnumerator_o* Pickup_Magazine__AnimateMagInsertCoroutine (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4873840,
+      "Name": "Pickup_Magazine$$EjectMag",
+      "Signature": "void Pickup_Magazine__EjectMag (Pickup_Magazine_o* __this, bool doEjectAnimation, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4873296,
+      "Name": "Pickup_Magazine$$AnimateMagDropCoroutine",
+      "Signature": "System_Collections_IEnumerator_o* Pickup_Magazine__AnimateMagDropCoroutine (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4880368,
+      "Name": "Pickup_Magazine$$RemoveMagFromGun",
+      "Signature": "void Pickup_Magazine__RemoveMagFromGun (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4880208,
+      "Name": "Pickup_Magazine$$RPC_SetAmmoType",
+      "Signature": "void Pickup_Magazine__RPC_SetAmmoType (Pickup_Magazine_o* __this, uint8_t ammoTypeByte, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4882160,
+      "Name": "Pickup_Magazine$$ToggleInsertHandlerCoroutine",
+      "Signature": "System_Collections_IEnumerator_o* Pickup_Magazine__ToggleInsertHandlerCoroutine (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4876080,
+      "Name": "Pickup_Magazine$$LoadAmmoIntoWeapon",
+      "Signature": "void Pickup_Magazine__LoadAmmoIntoWeapon (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4876064,
+      "Name": "Pickup_Magazine$$LoadAmmoIntoMagazine",
+      "Signature": "void Pickup_Magazine__LoadAmmoIntoMagazine (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4881456,
+      "Name": "Pickup_Magazine$$SetAmmoCount",
+      "Signature": "void Pickup_Magazine__SetAmmoCount (Pickup_Magazine_o* __this, int32_t count, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4880272,
+      "Name": "Pickup_Magazine$$RefillMagazine",
+      "Signature": "void Pickup_Magazine__RefillMagazine (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4874080,
+      "Name": "Pickup_Magazine$$EmptyMagazine",
+      "Signature": "void Pickup_Magazine__EmptyMagazine (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4880288,
+      "Name": "Pickup_Magazine$$RefreshVisibleAmmo",
+      "Signature": "void Pickup_Magazine__RefreshVisibleAmmo (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4881504,
+      "Name": "Pickup_Magazine$$SetCollisionWithGun",
+      "Signature": "void Pickup_Magazine__SetCollisionWithGun (Pickup_Magazine_o* __this, bool ignoreCollision, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4881040,
+      "Name": "Pickup_Magazine$$SendNetworkStateToPlayer",
+      "Signature": "bool Pickup_Magazine__SendNetworkStateToPlayer (Pickup_Magazine_o* __this, DPI_Networking_DPIPlayer_o* requester, const MethodInfo* method);",
+      "TypeSignature": "iiii"
+    },
+    {
+      "Address": 4878992,
+      "Name": "Pickup_Magazine$$RPC_Magazine_SendState",
+      "Signature": "void Pickup_Magazine__RPC_Magazine_SendState (Pickup_Magazine_o* __this, int32_t rCurrentAmmo, int32_t rAmmoType, int32_t rAttachedWeaonId, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiiiii"
+    },
+    {
+      "Address": 4882336,
+      "Name": "Pickup_Magazine$$\u0394\u03B4\u03B4_R_RPC_InsertMag",
+      "Signature": "void Pickup_Magazine______R_RPC_InsertMag (Pickup_Magazine_o* __this, Pickup_Magazine_____S_RPC_InsertMag_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4878512,
+      "Name": "Pickup_Magazine$$RPC_InsertMag",
+      "Signature": "void Pickup_Magazine__RPC_InsertMag (Pickup_Magazine_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, int32_t weaponViewID, bool immediateInsert, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 4878096,
+      "Name": "Pickup_Magazine$$RPC_InsertMag",
+      "Signature": "void Pickup_Magazine__RPC_InsertMag (Pickup_Magazine_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, int32_t weaponViewID, bool immediateInsert, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 4877856,
+      "Name": "Pickup_Magazine$$RPC_InsertMag",
+      "Signature": "void Pickup_Magazine__RPC_InsertMag (Pickup_Magazine_o* __this, int32_t invokeRpcTarget, int32_t weaponViewID, bool immediateInsert, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 4880208,
+      "Name": "Pickup_Magazine$$\u0394\u03B4\u03B4_R_RPC_SetAmmoType",
+      "Signature": "void Pickup_Magazine______R_RPC_SetAmmoType (Pickup_Magazine_o* __this, Pickup_Magazine_____S_RPC_SetAmmoType_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4879792,
+      "Name": "Pickup_Magazine$$RPC_SetAmmoType",
+      "Signature": "void Pickup_Magazine__RPC_SetAmmoType (Pickup_Magazine_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, uint8_t ammoTypeByte, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4880000,
+      "Name": "Pickup_Magazine$$RPC_SetAmmoType",
+      "Signature": "void Pickup_Magazine__RPC_SetAmmoType (Pickup_Magazine_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, uint8_t ammoTypeByte, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4879584,
+      "Name": "Pickup_Magazine$$RPC_SetAmmoType",
+      "Signature": "void Pickup_Magazine__RPC_SetAmmoType (Pickup_Magazine_o* __this, int32_t invokeRpcTarget, uint8_t ammoTypeByte, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4882512,
+      "Name": "Pickup_Magazine$$\u0394\u03B4\u03B4_R_RPC_Magazine_SendState",
+      "Signature": "void Pickup_Magazine______R_RPC_Magazine_SendState (Pickup_Magazine_o* __this, Pickup_Magazine_____S_RPC_Magazine_SendState_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4879104,
+      "Name": "Pickup_Magazine$$RPC_Magazine_SendState",
+      "Signature": "void Pickup_Magazine__RPC_Magazine_SendState (Pickup_Magazine_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, int32_t rCurrentAmmo, int32_t rAmmoType, int32_t rAttachedWeaonId, const MethodInfo* method);",
+      "TypeSignature": "viiiiii"
+    },
+    {
+      "Address": 4879344,
+      "Name": "Pickup_Magazine$$RPC_Magazine_SendState",
+      "Signature": "void Pickup_Magazine__RPC_Magazine_SendState (Pickup_Magazine_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, int32_t rCurrentAmmo, int32_t rAmmoType, int32_t rAttachedWeaonId, const MethodInfo* method);",
+      "TypeSignature": "viiiiii"
+    },
+    {
+      "Address": 4878752,
+      "Name": "Pickup_Magazine$$RPC_Magazine_SendState",
+      "Signature": "void Pickup_Magazine__RPC_Magazine_SendState (Pickup_Magazine_o* __this, int32_t invokeRpcTarget, int32_t rCurrentAmmo, int32_t rAmmoType, int32_t rAttachedWeaonId, const MethodInfo* method);",
+      "TypeSignature": "viiiiii"
+    },
+    {
+      "Address": 4876272,
+      "Name": "Pickup_Magazine$$OnCodeGenInitializeHook",
+      "Signature": "void Pickup_Magazine__OnCodeGenInitializeHook (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4873104,
+      "Name": "Pickup_Magazine$$.ctor",
+      "Signature": "void Pickup_Magazine___ctor (Pickup_Magazine_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4932208,
+      "Name": "Pickup_MagazineShotgunBox.\u0394\u03B4\u03B4_S_RPC_SetAmmoBoxState$$Read",
+      "Signature": "void Pickup_MagazineShotgunBox_____S_RPC_SetAmmoBoxState__Read (Pickup_MagazineShotgunBox_____S_RPC_SetAmmoBoxState_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4932320,
+      "Name": "Pickup_MagazineShotgunBox.\u0394\u03B4\u03B4_S_RPC_SetAmmoBoxState$$Write",
+      "Signature": "void Pickup_MagazineShotgunBox_____S_RPC_SetAmmoBoxState__Write (Pickup_MagazineShotgunBox_____S_RPC_SetAmmoBoxState_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 3709232,
+      "Name": "Pickup_MagazineShotgunBox.\u003CToggleInsertHandlerCoroutine\u003Ed__11$$.ctor",
+      "Signature": "void Pickup_MagazineShotgunBox__ToggleInsertHandlerCoroutine_d__11___ctor (Pickup_MagazineShotgunBox__ToggleInsertHandlerCoroutine_d__11_o* __this, int32_t __1__state, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 3850752,
+      "Name": "Pickup_MagazineShotgunBox.\u003CToggleInsertHandlerCoroutine\u003Ed__11$$System.IDisposable.Dispose",
+      "Signature": "void Pickup_MagazineShotgunBox__ToggleInsertHandlerCoroutine_d__11__System_IDisposable_Dispose (Pickup_MagazineShotgunBox__ToggleInsertHandlerCoroutine_d__11_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4942752,
+      "Name": "Pickup_MagazineShotgunBox.\u003CToggleInsertHandlerCoroutine\u003Ed__11$$MoveNext",
+      "Signature": "bool Pickup_MagazineShotgunBox__ToggleInsertHandlerCoroutine_d__11__MoveNext (Pickup_MagazineShotgunBox__ToggleInsertHandlerCoroutine_d__11_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 3957168,
+      "Name": "Pickup_MagazineShotgunBox.\u003CToggleInsertHandlerCoroutine\u003Ed__11$$System.Collections.Generic.IEnumerator\u003CSystem.Object\u003E.get_Current",
+      "Signature": "Il2CppObject* Pickup_MagazineShotgunBox__ToggleInsertHandlerCoroutine_d__11__System_Collections_Generic_IEnumerator_System_Object__get_Current (Pickup_MagazineShotgunBox__ToggleInsertHandlerCoroutine_d__11_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4942800,
+      "Name": "Pickup_MagazineShotgunBox.\u003CToggleInsertHandlerCoroutine\u003Ed__11$$System.Collections.IEnumerator.Reset",
+      "Signature": "void Pickup_MagazineShotgunBox__ToggleInsertHandlerCoroutine_d__11__System_Collections_IEnumerator_Reset (Pickup_MagazineShotgunBox__ToggleInsertHandlerCoroutine_d__11_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 3957168,
+      "Name": "Pickup_MagazineShotgunBox.\u003CToggleInsertHandlerCoroutine\u003Ed__11$$System.Collections.IEnumerator.get_Current",
+      "Signature": "Il2CppObject* Pickup_MagazineShotgunBox__ToggleInsertHandlerCoroutine_d__11__System_Collections_IEnumerator_get_Current (Pickup_MagazineShotgunBox__ToggleInsertHandlerCoroutine_d__11_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4873280,
+      "Name": "Pickup_MagazineShotgunBox$$get_Capacity",
+      "Signature": "int32_t Pickup_MagazineShotgunBox__get_Capacity (Pickup_MagazineShotgunBox_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4871056,
+      "Name": "Pickup_MagazineShotgunBox$$OnHolster",
+      "Signature": "void Pickup_MagazineShotgunBox__OnHolster (Pickup_MagazineShotgunBox_o* __this, PickupHolster_o* holster, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4872272,
+      "Name": "Pickup_MagazineShotgunBox$$SendNetworkStateToPlayer",
+      "Signature": "bool Pickup_MagazineShotgunBox__SendNetworkStateToPlayer (Pickup_MagazineShotgunBox_o* __this, DPI_Networking_DPIPlayer_o* requester, const MethodInfo* method);",
+      "TypeSignature": "iiii"
+    },
+    {
+      "Address": 4872240,
+      "Name": "Pickup_MagazineShotgunBox$$RPC_SetAmmoBoxState",
+      "Signature": "void Pickup_MagazineShotgunBox__RPC_SetAmmoBoxState (Pickup_MagazineShotgunBox_o* __this, int32_t newCount, float ammoWeight, uint8_t ammoType, DPI_Networking_DPINetworkMessageInfo_o messageInfo, const MethodInfo* method);",
+      "TypeSignature": "viifiii"
+    },
+    {
+      "Address": 4870816,
+      "Name": "Pickup_MagazineShotgunBox$$InitializeBoxInfo",
+      "Signature": "void Pickup_MagazineShotgunBox__InitializeBoxInfo (Pickup_MagazineShotgunBox_o* __this, int32_t count, float weight, uint8_t ammoType, const MethodInfo* method);",
+      "TypeSignature": "viifii"
+    },
+    {
+      "Address": 4872800,
+      "Name": "Pickup_MagazineShotgunBox$$SetAmmoCount",
+      "Signature": "void Pickup_MagazineShotgunBox__SetAmmoCount (Pickup_MagazineShotgunBox_o* __this, int32_t count, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4873040,
+      "Name": "Pickup_MagazineShotgunBox$$Unequip",
+      "Signature": "void Pickup_MagazineShotgunBox__Unequip (Pickup_MagazineShotgunBox_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4872880,
+      "Name": "Pickup_MagazineShotgunBox$$ToggleInsertHandlerCoroutine",
+      "Signature": "System_Collections_IEnumerator_o* Pickup_MagazineShotgunBox__ToggleInsertHandlerCoroutine (Pickup_MagazineShotgunBox_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 3850752,
+      "Name": "Pickup_MagazineShotgunBox$$ToggleMagazineInsertHandler",
+      "Signature": "void Pickup_MagazineShotgunBox__ToggleMagazineInsertHandler (Pickup_MagazineShotgunBox_o* __this, bool state, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4873008,
+      "Name": "Pickup_MagazineShotgunBox$$\u0394\u03B4\u03B4_R_RPC_SetAmmoBoxState",
+      "Signature": "void Pickup_MagazineShotgunBox______R_RPC_SetAmmoBoxState (Pickup_MagazineShotgunBox_o* __this, Pickup_MagazineShotgunBox_____S_RPC_SetAmmoBoxState_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4871424,
+      "Name": "Pickup_MagazineShotgunBox$$RPC_SetAmmoBoxState",
+      "Signature": "void Pickup_MagazineShotgunBox__RPC_SetAmmoBoxState (Pickup_MagazineShotgunBox_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, int32_t newCount, float ammoWeight, uint8_t ammoType, const MethodInfo* method);",
+      "TypeSignature": "viiifii"
+    },
+    {
+      "Address": 4871968,
+      "Name": "Pickup_MagazineShotgunBox$$RPC_SetAmmoBoxState",
+      "Signature": "void Pickup_MagazineShotgunBox__RPC_SetAmmoBoxState (Pickup_MagazineShotgunBox_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, int32_t newCount, float ammoWeight, uint8_t ammoType, const MethodInfo* method);",
+      "TypeSignature": "viiifii"
+    },
+    {
+      "Address": 4871696,
+      "Name": "Pickup_MagazineShotgunBox$$RPC_SetAmmoBoxState",
+      "Signature": "void Pickup_MagazineShotgunBox__RPC_SetAmmoBoxState (Pickup_MagazineShotgunBox_o* __this, int32_t invokeRpcTarget, int32_t newCount, float ammoWeight, uint8_t ammoType, const MethodInfo* method);",
+      "TypeSignature": "viiifii"
+    },
+    {
+      "Address": 4870848,
+      "Name": "Pickup_MagazineShotgunBox$$OnCodeGenInitializeHook",
+      "Signature": "void Pickup_MagazineShotgunBox__OnCodeGenInitializeHook (Pickup_MagazineShotgunBox_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4873104,
+      "Name": "Pickup_MagazineShotgunBox$$.ctor",
+      "Signature": "void Pickup_MagazineShotgunBox___ctor (Pickup_MagazineShotgunBox_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4882128,
+      "Name": "Pickup_Magazine_Table$$Start",
+      "Signature": "void Pickup_Magazine_Table__Start (Pickup_Magazine_Table_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 3756224,
+      "Name": "Pickup_Magazine_Table$$.ctor",
+      "Signature": "void Pickup_Magazine_Table___ctor (Pickup_Magazine_Table_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4883264,
+      "Name": "Pickup_Pistol$$EquipLocalSupportGripHand",
+      "Signature": "void Pickup_Pistol__EquipLocalSupportGripHand (Pickup_Pistol_o* __this, HandController_o* supportGripHandController, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4863072,
+      "Name": "Pickup_Pistol$$.ctor",
+      "Signature": "void Pickup_Pistol___ctor (Pickup_Pistol_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4883184,
+      "Name": "Pickup_Shield$$get_WeaponName",
+      "Signature": "int32_t Pickup_Shield__get_WeaponName (Pickup_Shield_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4886976,
+      "Name": "Pickup_Shield$$OnEnable",
+      "Signature": "void Pickup_Shield__OnEnable (Pickup_Shield_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4886832,
+      "Name": "Pickup_Shield$$OnDisable",
+      "Signature": "void Pickup_Shield__OnDisable (Pickup_Shield_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4883344,
+      "Name": "Pickup_Shield$$Awake",
+      "Signature": "void Pickup_Shield__Awake (Pickup_Shield_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4889216,
+      "Name": "Pickup_Shield$$OnStart",
+      "Signature": "void Pickup_Shield__OnStart (Pickup_Shield_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4886608,
+      "Name": "Pickup_Shield$$OnDestroyInherited",
+      "Signature": "void Pickup_Shield__OnDestroyInherited (Pickup_Shield_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4888752,
+      "Name": "Pickup_Shield$$OnShieldDamageTaken",
+      "Signature": "void Pickup_Shield__OnShieldDamageTaken (Pickup_Shield_o* __this, float amount, int32_t damageType, DPI_Networking_DPIPlayer_o* source, const MethodInfo* method);",
+      "TypeSignature": "vifiii"
+    },
+    {
+      "Address": 4887120,
+      "Name": "Pickup_Shield$$OnGlassDamageTaken",
+      "Signature": "void Pickup_Shield__OnGlassDamageTaken (Pickup_Shield_o* __this, float amount, int32_t damageType, DPI_Networking_DPIPlayer_o* source, const MethodInfo* method);",
+      "TypeSignature": "vifiii"
+    },
+    {
+      "Address": 4890064,
+      "Name": "Pickup_Shield$$OnUpdate",
+      "Signature": "void Pickup_Shield__OnUpdate (Pickup_Shield_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4887168,
+      "Name": "Pickup_Shield$$OnLateUpdate",
+      "Signature": "void Pickup_Shield__OnLateUpdate (Pickup_Shield_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4883536,
+      "Name": "Pickup_Shield$$EquipLocal",
+      "Signature": "void Pickup_Shield__EquipLocal (Pickup_Shield_o* __this, HandController_o* handController, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4889776,
+      "Name": "Pickup_Shield$$OnStopEquipLocal",
+      "Signature": "void Pickup_Shield__OnStopEquipLocal (Pickup_Shield_o* __this, HandController_o* handController, bool doThrowObject, bool isBeingHolstered, bool localOnly, bool isPassingToAnotherHand, bool isBeingDestroyed, const MethodInfo* method);",
+      "TypeSignature": "viiiiiiii"
+    },
+    {
+      "Address": 3850752,
+      "Name": "Pickup_Shield$$OnHolster",
+      "Signature": "void Pickup_Shield__OnHolster (Pickup_Shield_o* __this, PickupHolster_o* holster, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4890336,
+      "Name": "Pickup_Shield$$ToggleColliderState",
+      "Signature": "void Pickup_Shield__ToggleColliderState (Pickup_Shield_o* __this, UnityEngine_Collider_o* col, bool colliderEnabled, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4889952,
+      "Name": "Pickup_Shield$$OnStopEquipNetworked",
+      "Signature": "void Pickup_Shield__OnStopEquipNetworked (Pickup_Shield_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4884512,
+      "Name": "Pickup_Shield$$IsInsideSomething",
+      "Signature": "bool Pickup_Shield__IsInsideSomething (Pickup_Shield_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4885312,
+      "Name": "Pickup_Shield$$OnCollision",
+      "Signature": "void Pickup_Shield__OnCollision (Pickup_Shield_o* __this, UnityEngine_Collision_o* collision, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4884448,
+      "Name": "Pickup_Shield$$GetCurrentNetworkRotation",
+      "Signature": "UnityEngine_Quaternion_o Pickup_Shield__GetCurrentNetworkRotation (Pickup_Shield_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4890624,
+      "Name": "Pickup_Shield$$.ctor",
+      "Signature": "void Pickup_Shield___ctor (Pickup_Shield_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4890448,
+      "Name": "Pickup_Shield$$.cctor",
+      "Signature": "void Pickup_Shield___cctor (const MethodInfo* method);",
+      "TypeSignature": "vi"
+    },
+    {
+      "Address": 3709232,
+      "Name": "Pickup_Smoke_Grenade.\u003CDelayPreDisable\u003Ed__16$$.ctor",
+      "Signature": "void Pickup_Smoke_Grenade__DelayPreDisable_d__16___ctor (Pickup_Smoke_Grenade__DelayPreDisable_d__16_o* __this, int32_t __1__state, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 3850752,
+      "Name": "Pickup_Smoke_Grenade.\u003CDelayPreDisable\u003Ed__16$$System.IDisposable.Dispose",
+      "Signature": "void Pickup_Smoke_Grenade__DelayPreDisable_d__16__System_IDisposable_Dispose (Pickup_Smoke_Grenade__DelayPreDisable_d__16_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4941040,
+      "Name": "Pickup_Smoke_Grenade.\u003CDelayPreDisable\u003Ed__16$$MoveNext",
+      "Signature": "bool Pickup_Smoke_Grenade__DelayPreDisable_d__16__MoveNext (Pickup_Smoke_Grenade__DelayPreDisable_d__16_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 3957168,
+      "Name": "Pickup_Smoke_Grenade.\u003CDelayPreDisable\u003Ed__16$$System.Collections.Generic.IEnumerator\u003CSystem.Object\u003E.get_Current",
+      "Signature": "Il2CppObject* Pickup_Smoke_Grenade__DelayPreDisable_d__16__System_Collections_Generic_IEnumerator_System_Object__get_Current (Pickup_Smoke_Grenade__DelayPreDisable_d__16_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4941520,
+      "Name": "Pickup_Smoke_Grenade.\u003CDelayPreDisable\u003Ed__16$$System.Collections.IEnumerator.Reset",
+      "Signature": "void Pickup_Smoke_Grenade__DelayPreDisable_d__16__System_Collections_IEnumerator_Reset (Pickup_Smoke_Grenade__DelayPreDisable_d__16_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 3957168,
+      "Name": "Pickup_Smoke_Grenade.\u003CDelayPreDisable\u003Ed__16$$System.Collections.IEnumerator.get_Current",
+      "Signature": "Il2CppObject* Pickup_Smoke_Grenade__DelayPreDisable_d__16__System_Collections_IEnumerator_get_Current (Pickup_Smoke_Grenade__DelayPreDisable_d__16_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4891360,
+      "Name": "Pickup_Smoke_Grenade$$OnDisable",
+      "Signature": "void Pickup_Smoke_Grenade__OnDisable (Pickup_Smoke_Grenade_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4891392,
+      "Name": "Pickup_Smoke_Grenade$$OnUpdate",
+      "Signature": "void Pickup_Smoke_Grenade__OnUpdate (Pickup_Smoke_Grenade_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4891312,
+      "Name": "Pickup_Smoke_Grenade$$FlipFlapOff",
+      "Signature": "void Pickup_Smoke_Grenade__FlipFlapOff (Pickup_Smoke_Grenade_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4890976,
+      "Name": "Pickup_Smoke_Grenade$$DoExplosion",
+      "Signature": "void Pickup_Smoke_Grenade__DoExplosion (Pickup_Smoke_Grenade_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4890848,
+      "Name": "Pickup_Smoke_Grenade$$DelayPreDisable",
+      "Signature": "System_Collections_IEnumerator_o* Pickup_Smoke_Grenade__DelayPreDisable (Pickup_Smoke_Grenade_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4891632,
+      "Name": "Pickup_Smoke_Grenade$$UpdateAIBlocker",
+      "Signature": "void Pickup_Smoke_Grenade__UpdateAIBlocker (Pickup_Smoke_Grenade_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4891456,
+      "Name": "Pickup_Smoke_Grenade$$ToggleInMotion",
+      "Signature": "void Pickup_Smoke_Grenade__ToggleInMotion (Pickup_Smoke_Grenade_o* __this, bool inMotion, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4892592,
+      "Name": "Pickup_Smoke_Grenade$$.ctor",
+      "Signature": "void Pickup_Smoke_Grenade___ctor (Pickup_Smoke_Grenade_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4891312,
+      "Name": "Pickup_Stun_Grenade$$FlipFlapOff",
+      "Signature": "void Pickup_Stun_Grenade__FlipFlapOff (Pickup_Stun_Grenade_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4895232,
+      "Name": "Pickup_Stun_Grenade$$PullPin",
+      "Signature": "void Pickup_Stun_Grenade__PullPin (Pickup_Stun_Grenade_o* __this, HandController_o* hand, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4892768,
+      "Name": "Pickup_Stun_Grenade$$DoExplosion",
+      "Signature": "void Pickup_Stun_Grenade__DoExplosion (Pickup_Stun_Grenade_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4755696,
+      "Name": "Pickup_Stun_Grenade$$.ctor",
+      "Signature": "void Pickup_Stun_Grenade___ctor (Pickup_Stun_Grenade_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 3850752,
+      "Name": "Pickup_Syringe.\u0394\u03B4\u03B4_S_RPC_UseSyringe$$Read",
+      "Signature": "void Pickup_Syringe_____S_RPC_UseSyringe__Read (Pickup_Syringe_____S_RPC_UseSyringe_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 3850752,
+      "Name": "Pickup_Syringe.\u0394\u03B4\u03B4_S_RPC_UseSyringe$$Write",
+      "Signature": "void Pickup_Syringe_____S_RPC_UseSyringe__Write (Pickup_Syringe_____S_RPC_UseSyringe_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4932432,
+      "Name": "Pickup_Syringe.\u0394\u03B4\u03B4_S_RPC_Syringe_SendState$$Read",
+      "Signature": "void Pickup_Syringe_____S_RPC_Syringe_SendState__Read (Pickup_Syringe_____S_RPC_Syringe_SendState_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4932480,
+      "Name": "Pickup_Syringe.\u0394\u03B4\u03B4_S_RPC_Syringe_SendState$$Write",
+      "Signature": "void Pickup_Syringe_____S_RPC_Syringe_SendState__Write (Pickup_Syringe_____S_RPC_Syringe_SendState_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 3709232,
+      "Name": "Pickup_Syringe.\u003CDelayDestroy\u003Ed__15$$.ctor",
+      "Signature": "void Pickup_Syringe__DelayDestroy_d__15___ctor (Pickup_Syringe__DelayDestroy_d__15_o* __this, int32_t __1__state, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 3850752,
+      "Name": "Pickup_Syringe.\u003CDelayDestroy\u003Ed__15$$System.IDisposable.Dispose",
+      "Signature": "void Pickup_Syringe__DelayDestroy_d__15__System_IDisposable_Dispose (Pickup_Syringe__DelayDestroy_d__15_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4940576,
+      "Name": "Pickup_Syringe.\u003CDelayDestroy\u003Ed__15$$MoveNext",
+      "Signature": "bool Pickup_Syringe__DelayDestroy_d__15__MoveNext (Pickup_Syringe__DelayDestroy_d__15_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 3957168,
+      "Name": "Pickup_Syringe.\u003CDelayDestroy\u003Ed__15$$System.Collections.Generic.IEnumerator\u003CSystem.Object\u003E.get_Current",
+      "Signature": "Il2CppObject* Pickup_Syringe__DelayDestroy_d__15__System_Collections_Generic_IEnumerator_System_Object__get_Current (Pickup_Syringe__DelayDestroy_d__15_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4940960,
+      "Name": "Pickup_Syringe.\u003CDelayDestroy\u003Ed__15$$System.Collections.IEnumerator.Reset",
+      "Signature": "void Pickup_Syringe__DelayDestroy_d__15__System_Collections_IEnumerator_Reset (Pickup_Syringe__DelayDestroy_d__15_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 3957168,
+      "Name": "Pickup_Syringe.\u003CDelayDestroy\u003Ed__15$$System.Collections.IEnumerator.get_Current",
+      "Signature": "Il2CppObject* Pickup_Syringe__DelayDestroy_d__15__System_Collections_IEnumerator_get_Current (Pickup_Syringe__DelayDestroy_d__15_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4898000,
+      "Name": "Pickup_Syringe$$OnStart",
+      "Signature": "void Pickup_Syringe__OnStart (Pickup_Syringe_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4898592,
+      "Name": "Pickup_Syringe$$OnUpdateInHand",
+      "Signature": "void Pickup_Syringe__OnUpdateInHand (Pickup_Syringe_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4895504,
+      "Name": "Pickup_Syringe$$CheckForHeal",
+      "Signature": "void Pickup_Syringe__CheckForHeal (Pickup_Syringe_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4897056,
+      "Name": "Pickup_Syringe$$HealPlayer",
+      "Signature": "void Pickup_Syringe__HealPlayer (Pickup_Syringe_o* __this, WarPlayerScript_o* target, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4898336,
+      "Name": "Pickup_Syringe$$OnStopEquipLocal",
+      "Signature": "void Pickup_Syringe__OnStopEquipLocal (Pickup_Syringe_o* __this, HandController_o* handController, bool doThrowObject, bool isBeingHolstered, bool localOnly, bool isPassingToAnotherHand, bool isBeingDestroyed, const MethodInfo* method);",
+      "TypeSignature": "viiiiiiii"
+    },
+    {
+      "Address": 4899920,
+      "Name": "Pickup_Syringe$$RPC_UseSyringe",
+      "Signature": "void Pickup_Syringe__RPC_UseSyringe (Pickup_Syringe_o* __this, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4896912,
+      "Name": "Pickup_Syringe$$DelayDestroy",
+      "Signature": "System_Collections_IEnumerator_o* Pickup_Syringe__DelayDestroy (Pickup_Syringe_o* __this, float seconds, const MethodInfo* method);",
+      "TypeSignature": "iifi"
+    },
+    {
+      "Address": 4897248,
+      "Name": "Pickup_Syringe$$IsPressingInput",
+      "Signature": "bool Pickup_Syringe__IsPressingInput (Pickup_Syringe_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4897728,
+      "Name": "Pickup_Syringe$$OnDrawGizmosVirtual",
+      "Signature": "void Pickup_Syringe__OnDrawGizmosVirtual (Pickup_Syringe_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4900080,
+      "Name": "Pickup_Syringe$$SendNetworkStateToPlayer",
+      "Signature": "bool Pickup_Syringe__SendNetworkStateToPlayer (Pickup_Syringe_o* __this, DPI_Networking_DPIPlayer_o* requester, const MethodInfo* method);",
+      "TypeSignature": "iiii"
+    },
+    {
+      "Address": 4898640,
+      "Name": "Pickup_Syringe$$RPC_Syringe_SendState",
+      "Signature": "void Pickup_Syringe__RPC_Syringe_SendState (Pickup_Syringe_o* __this, bool rUsed, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4899920,
+      "Name": "Pickup_Syringe$$\u0394\u03B4\u03B4_R_RPC_UseSyringe",
+      "Signature": "void Pickup_Syringe______R_RPC_UseSyringe (Pickup_Syringe_o* __this, Pickup_Syringe_____S_RPC_UseSyringe_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4899504,
+      "Name": "Pickup_Syringe$$RPC_UseSyringe",
+      "Signature": "void Pickup_Syringe__RPC_UseSyringe (Pickup_Syringe_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4899712,
+      "Name": "Pickup_Syringe$$RPC_UseSyringe",
+      "Signature": "void Pickup_Syringe__RPC_UseSyringe (Pickup_Syringe_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4899296,
+      "Name": "Pickup_Syringe$$RPC_UseSyringe",
+      "Signature": "void Pickup_Syringe__RPC_UseSyringe (Pickup_Syringe_o* __this, int32_t invokeRpcTarget, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4898640,
+      "Name": "Pickup_Syringe$$\u0394\u03B4\u03B4_R_RPC_Syringe_SendState",
+      "Signature": "void Pickup_Syringe______R_RPC_Syringe_SendState (Pickup_Syringe_o* __this, Pickup_Syringe_____S_RPC_Syringe_SendState_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4899088,
+      "Name": "Pickup_Syringe$$RPC_Syringe_SendState",
+      "Signature": "void Pickup_Syringe__RPC_Syringe_SendState (Pickup_Syringe_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, bool rUsed, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4898880,
+      "Name": "Pickup_Syringe$$RPC_Syringe_SendState",
+      "Signature": "void Pickup_Syringe__RPC_Syringe_SendState (Pickup_Syringe_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, bool rUsed, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4898672,
+      "Name": "Pickup_Syringe$$RPC_Syringe_SendState",
+      "Signature": "void Pickup_Syringe__RPC_Syringe_SendState (Pickup_Syringe_o* __this, int32_t invokeRpcTarget, bool rUsed, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4897376,
+      "Name": "Pickup_Syringe$$OnCodeGenInitializeHook",
+      "Signature": "void Pickup_Syringe__OnCodeGenInitializeHook (Pickup_Syringe_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4900336,
+      "Name": "Pickup_Syringe$$.ctor",
+      "Signature": "void Pickup_Syringe___ctor (Pickup_Syringe_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 3850752,
+      "Name": "Pickup_Taser.\u0394\u03B4\u03B4_S_RPC_AttemptFire$$Read",
+      "Signature": "void Pickup_Taser_____S_RPC_AttemptFire__Read (Pickup_Taser_____S_RPC_AttemptFire_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 3850752,
+      "Name": "Pickup_Taser.\u0394\u03B4\u03B4_S_RPC_AttemptFire$$Write",
+      "Signature": "void Pickup_Taser_____S_RPC_AttemptFire__Write (Pickup_Taser_____S_RPC_AttemptFire_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4931856,
+      "Name": "Pickup_Taser.\u0394\u03B4\u03B4_S_RPC_SetLaserStatus$$Read",
+      "Signature": "void Pickup_Taser_____S_RPC_SetLaserStatus__Read (Pickup_Taser_____S_RPC_SetLaserStatus_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4931936,
+      "Name": "Pickup_Taser.\u0394\u03B4\u03B4_S_RPC_SetLaserStatus$$Write",
+      "Signature": "void Pickup_Taser_____S_RPC_SetLaserStatus__Write (Pickup_Taser_____S_RPC_SetLaserStatus_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4931696,
+      "Name": "Pickup_Taser.\u0394\u03B4\u03B4_S_RPC_Taser_SendState$$Read",
+      "Signature": "void Pickup_Taser_____S_RPC_Taser_SendState__Read (Pickup_Taser_____S_RPC_Taser_SendState_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4931776,
+      "Name": "Pickup_Taser.\u0394\u03B4\u03B4_S_RPC_Taser_SendState$$Write",
+      "Signature": "void Pickup_Taser_____S_RPC_Taser_SendState__Write (Pickup_Taser_____S_RPC_Taser_SendState_o __this, DPI_Networking_IO_DPINetworkStream_o* networkStream, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4740320,
+      "Name": "Pickup_Taser$$get_isWeapon",
+      "Signature": "bool Pickup_Taser__get_isWeapon (Pickup_Taser_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4883184,
+      "Name": "Pickup_Taser$$get_WeaponName",
+      "Signature": "int32_t Pickup_Taser__get_WeaponName (Pickup_Taser_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4901600,
+      "Name": "Pickup_Taser$$OnStart",
+      "Signature": "void Pickup_Taser__OnStart (Pickup_Taser_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4901408,
+      "Name": "Pickup_Taser$$OnDestroyInherited",
+      "Signature": "void Pickup_Taser__OnDestroyInherited (Pickup_Taser_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4902048,
+      "Name": "Pickup_Taser$$OnUpdateInHand",
+      "Signature": "void Pickup_Taser__OnUpdateInHand (Pickup_Taser_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4902784,
+      "Name": "Pickup_Taser$$OnUpdate",
+      "Signature": "void Pickup_Taser__OnUpdate (Pickup_Taser_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4900848,
+      "Name": "Pickup_Taser$$IsInsideSomething",
+      "Signature": "bool Pickup_Taser__IsInsideSomething (Pickup_Taser_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 4901520,
+      "Name": "Pickup_Taser$$OnHolster",
+      "Signature": "void Pickup_Taser__OnHolster (Pickup_Taser_o* __this, PickupHolster_o* holster, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4900576,
+      "Name": "Pickup_Taser$$EquipLocal",
+      "Signature": "void Pickup_Taser__EquipLocal (Pickup_Taser_o* __this, HandController_o* handController, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4901792,
+      "Name": "Pickup_Taser$$OnStopEquipLocal",
+      "Signature": "void Pickup_Taser__OnStopEquipLocal (Pickup_Taser_o* __this, HandController_o* handController, bool doThrowObject, bool isBeingHolstered, bool localOnly, bool isPassingToAnotherHand, bool isBeingDestroyed, const MethodInfo* method);",
+      "TypeSignature": "viiiiiiii"
+    },
+    {
+      "Address": 4909248,
+      "Name": "Pickup_Taser$$UpdateCharacterSpeed",
+      "Signature": "void Pickup_Taser__UpdateCharacterSpeed (Pickup_Taser_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4817040,
+      "Name": "Pickup_Taser$$ResetGunHeightForPlayerSpeed",
+      "Signature": "void Pickup_Taser__ResetGunHeightForPlayerSpeed (HandController_o* hand, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4903664,
+      "Name": "Pickup_Taser$$RPC_AttemptFire",
+      "Signature": "void Pickup_Taser__RPC_AttemptFire (Pickup_Taser_o* __this, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4902976,
+      "Name": "Pickup_Taser$$PlayShootEffects",
+      "Signature": "void Pickup_Taser__PlayShootEffects (Pickup_Taser_o* __this, AK_Wwise_Event_o* sound, int32_t strength, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4900640,
+      "Name": "Pickup_Taser$$HitDamageBody",
+      "Signature": "void Pickup_Taser__HitDamageBody (Pickup_Taser_o* __this, DamageBody_o* body, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4900816,
+      "Name": "Pickup_Taser$$InteractLaser",
+      "Signature": "void Pickup_Taser__InteractLaser (Pickup_Taser_o* __this, bool laserOn, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4908064,
+      "Name": "Pickup_Taser$$RPC_SetLaserStatus",
+      "Signature": "void Pickup_Taser__RPC_SetLaserStatus (Pickup_Taser_o* __this, bool laserOn, bool playSound, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 4908848,
+      "Name": "Pickup_Taser$$SendNetworkStateToPlayer",
+      "Signature": "bool Pickup_Taser__SendNetworkStateToPlayer (Pickup_Taser_o* __this, DPI_Networking_DPIPlayer_o* requester, const MethodInfo* method);",
+      "TypeSignature": "iiii"
+    },
+    {
+      "Address": 4908576,
+      "Name": "Pickup_Taser$$RPC_Taser_SendState",
+      "Signature": "void Pickup_Taser__RPC_Taser_SendState (Pickup_Taser_o* __this, int32_t rInternalAmmo, bool rIsLaserOn, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 4909136,
+      "Name": "Pickup_Taser$$\u0394\u03B4\u03B4_R_RPC_AttemptFire",
+      "Signature": "void Pickup_Taser______R_RPC_AttemptFire (Pickup_Taser_o* __this, Pickup_Taser_____S_RPC_AttemptFire_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4907136,
+      "Name": "Pickup_Taser$$RPC_AttemptFire",
+      "Signature": "void Pickup_Taser__RPC_AttemptFire (Pickup_Taser_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4903456,
+      "Name": "Pickup_Taser$$RPC_AttemptFire",
+      "Signature": "void Pickup_Taser__RPC_AttemptFire (Pickup_Taser_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4903248,
+      "Name": "Pickup_Taser$$RPC_AttemptFire",
+      "Signature": "void Pickup_Taser__RPC_AttemptFire (Pickup_Taser_o* __this, int32_t invokeRpcTarget, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 4909168,
+      "Name": "Pickup_Taser$$\u0394\u03B4\u03B4_R_RPC_SetLaserStatus",
+      "Signature": "void Pickup_Taser______R_RPC_SetLaserStatus (Pickup_Taser_o* __this, Pickup_Taser_____S_RPC_SetLaserStatus_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4907584,
+      "Name": "Pickup_Taser$$RPC_SetLaserStatus",
+      "Signature": "void Pickup_Taser__RPC_SetLaserStatus (Pickup_Taser_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, bool laserOn, bool playSound, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 4907824,
+      "Name": "Pickup_Taser$$RPC_SetLaserStatus",
+      "Signature": "void Pickup_Taser__RPC_SetLaserStatus (Pickup_Taser_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, bool laserOn, bool playSound, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 4907344,
+      "Name": "Pickup_Taser$$RPC_SetLaserStatus",
+      "Signature": "void Pickup_Taser__RPC_SetLaserStatus (Pickup_Taser_o* __this, int32_t invokeRpcTarget, bool laserOn, bool playSound, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 4909200,
+      "Name": "Pickup_Taser$$\u0394\u03B4\u03B4_R_RPC_Taser_SendState",
+      "Signature": "void Pickup_Taser______R_RPC_Taser_SendState (Pickup_Taser_o* __this, Pickup_Taser_____S_RPC_Taser_SendState_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 4908096,
+      "Name": "Pickup_Taser$$RPC_Taser_SendState",
+      "Signature": "void Pickup_Taser__RPC_Taser_SendState (Pickup_Taser_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, int32_t rInternalAmmo, bool rIsLaserOn, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 4908336,
+      "Name": "Pickup_Taser$$RPC_Taser_SendState",
+      "Signature": "void Pickup_Taser__RPC_Taser_SendState (Pickup_Taser_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, int32_t rInternalAmmo, bool rIsLaserOn, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 4908608,
+      "Name": "Pickup_Taser$$RPC_Taser_SendState",
+      "Signature": "void Pickup_Taser__RPC_Taser_SendState (Pickup_Taser_o* __this, int32_t invokeRpcTarget, int32_t rInternalAmmo, bool rIsLaserOn, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 4900912,
+      "Name": "Pickup_Taser$$OnCodeGenInitializeHook",
+      "Signature": "void Pickup_Taser__OnCodeGenInitializeHook (Pickup_Taser_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 4909584,
+      "Name": "Pickup_Taser$$.ctor",
+      "Signature": "void Pickup_Taser___ctor (Pickup_Taser_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    }
+  ]
+}

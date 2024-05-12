@@ -1,0 +1,1138 @@
+{
+  "warplayer": [
+    {
+      "Address": 5762592,
+      "Name": "WarPlayerScript$$add_AnyPlayerHit",
+      "Signature": "void WarPlayerScript__add_AnyPlayerHit (WarPlayerScript_PlayerDamaged_o* value, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5765232,
+      "Name": "WarPlayerScript$$remove_AnyPlayerHit",
+      "Signature": "void WarPlayerScript__remove_AnyPlayerHit (WarPlayerScript_PlayerDamaged_o* value, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5762848,
+      "Name": "WarPlayerScript$$add_AnyPlayerRessed",
+      "Signature": "void WarPlayerScript__add_AnyPlayerRessed (WarPlayerScript_PlayerHealedEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5765488,
+      "Name": "WarPlayerScript$$remove_AnyPlayerRessed",
+      "Signature": "void WarPlayerScript__remove_AnyPlayerRessed (WarPlayerScript_PlayerHealedEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5763104,
+      "Name": "WarPlayerScript$$add_AnyPlayerShooting",
+      "Signature": "void WarPlayerScript__add_AnyPlayerShooting (WarPlayerScript_OtherPlayerEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5765744,
+      "Name": "WarPlayerScript$$remove_AnyPlayerShooting",
+      "Signature": "void WarPlayerScript__remove_AnyPlayerShooting (WarPlayerScript_OtherPlayerEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5763360,
+      "Name": "WarPlayerScript$$add_AnyPlayerSpawned",
+      "Signature": "void WarPlayerScript__add_AnyPlayerSpawned (WarPlayerScript_AnyPlayerEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5766000,
+      "Name": "WarPlayerScript$$remove_AnyPlayerSpawned",
+      "Signature": "void WarPlayerScript__remove_AnyPlayerSpawned (WarPlayerScript_AnyPlayerEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5763616,
+      "Name": "WarPlayerScript$$add_AnyPlayerUnDowned",
+      "Signature": "void WarPlayerScript__add_AnyPlayerUnDowned (WarPlayerScript_SpecificPlayerEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5766256,
+      "Name": "WarPlayerScript$$remove_AnyPlayerUnDowned",
+      "Signature": "void WarPlayerScript__remove_AnyPlayerUnDowned (WarPlayerScript_SpecificPlayerEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5764032,
+      "Name": "WarPlayerScript$$add_PlayerShooting",
+      "Signature": "void WarPlayerScript__add_PlayerShooting (WarPlayerScript_o* __this, WarPlayerScript_PlayerEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5766672,
+      "Name": "WarPlayerScript$$remove_PlayerShooting",
+      "Signature": "void WarPlayerScript__remove_PlayerShooting (WarPlayerScript_o* __this, WarPlayerScript_PlayerEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5764192,
+      "Name": "WarPlayerScript$$add_PlayerSpawned",
+      "Signature": "void WarPlayerScript__add_PlayerSpawned (WarPlayerScript_o* __this, WarPlayerScript_PlayerEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5766832,
+      "Name": "WarPlayerScript$$remove_PlayerSpawned",
+      "Signature": "void WarPlayerScript__remove_PlayerSpawned (WarPlayerScript_o* __this, WarPlayerScript_PlayerEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5763872,
+      "Name": "WarPlayerScript$$add_PlayerDespawned",
+      "Signature": "void WarPlayerScript__add_PlayerDespawned (WarPlayerScript_o* __this, WarPlayerScript_PlayerEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5766512,
+      "Name": "WarPlayerScript$$remove_PlayerDespawned",
+      "Signature": "void WarPlayerScript__remove_PlayerDespawned (WarPlayerScript_o* __this, WarPlayerScript_PlayerEvent_o* value, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5764352,
+      "Name": "WarPlayerScript$$get_CurrentHealth",
+      "Signature": "float WarPlayerScript__get_CurrentHealth (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "fii"
+    },
+    {
+      "Address": 5765168,
+      "Name": "WarPlayerScript$$get_PlayerFaction",
+      "Signature": "int32_t WarPlayerScript__get_PlayerFaction (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5764528,
+      "Name": "WarPlayerScript$$get_HasSpawnAudioImmunity",
+      "Signature": "bool WarPlayerScript__get_HasSpawnAudioImmunity (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5765008,
+      "Name": "WarPlayerScript$$get_IsNightVisionOn",
+      "Signature": "bool WarPlayerScript__get_IsNightVisionOn (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5765200,
+      "Name": "WarPlayerScript$$get_TeammateWhoDownedMe",
+      "Signature": "DPI_Networking_DPIPlayer_o* WarPlayerScript__get_TeammateWhoDownedMe (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5767056,
+      "Name": "WarPlayerScript$$set_TeammateWhoDownedMe",
+      "Signature": "void WarPlayerScript__set_TeammateWhoDownedMe (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* value, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5764992,
+      "Name": "WarPlayerScript$$get_IsInDeathTransition",
+      "Signature": "bool WarPlayerScript__get_IsInDeathTransition (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5767024,
+      "Name": "WarPlayerScript$$set_IsInDeathTransition",
+      "Signature": "void WarPlayerScript__set_IsInDeathTransition (WarPlayerScript_o* __this, bool value, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5764496,
+      "Name": "WarPlayerScript$$get_DeathPosition",
+      "Signature": "UnityEngine_Vector3_o WarPlayerScript__get_DeathPosition (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5766992,
+      "Name": "WarPlayerScript$$set_DeathPosition",
+      "Signature": "void WarPlayerScript__set_DeathPosition (WarPlayerScript_o* __this, UnityEngine_Vector3_o value, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5764592,
+      "Name": "WarPlayerScript$$get_IsFriendly",
+      "Signature": "bool WarPlayerScript__get_IsFriendly (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5765216,
+      "Name": "WarPlayerScript$$get_TimeOfLastStateChange",
+      "Signature": "double WarPlayerScript__get_TimeOfLastStateChange (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "dii"
+    },
+    {
+      "Address": 5767088,
+      "Name": "WarPlayerScript$$set_TimeOfLastStateChange",
+      "Signature": "void WarPlayerScript__set_TimeOfLastStateChange (WarPlayerScript_o* __this, double value, const MethodInfo* method);",
+      "TypeSignature": "vidi"
+    },
+    {
+      "Address": 5764560,
+      "Name": "WarPlayerScript$$get_IsEnemy",
+      "Signature": "bool WarPlayerScript__get_IsEnemy (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5701776,
+      "Name": "WarPlayerScript$$GetWarPlayer",
+      "Signature": "WarPlayerScript_o* WarPlayerScript__GetWarPlayer (DPI_Networking_DPIPlayer_o* player, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5696224,
+      "Name": "WarPlayerScript$$ClearReferencesToPlayer",
+      "Signature": "void WarPlayerScript__ClearReferencesToPlayer (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* referencedPlayer, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5746432,
+      "Name": "WarPlayerScript$$SetOtherAIInfo",
+      "Signature": "void WarPlayerScript__SetOtherAIInfo (WarPlayerScript_o* __this, int32_t aiID, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5753232,
+      "Name": "WarPlayerScript$$ShutOff",
+      "Signature": "void WarPlayerScript__ShutOff (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5753120,
+      "Name": "WarPlayerScript$$ShutOffWithoutDisconnect",
+      "Signature": "void WarPlayerScript__ShutOffWithoutDisconnect (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5701888,
+      "Name": "WarPlayerScript$$GetWatchSettings",
+      "Signature": "void WarPlayerScript__GetWatchSettings (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5710880,
+      "Name": "WarPlayerScript$$OnEnable",
+      "Signature": "void WarPlayerScript__OnEnable (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5710256,
+      "Name": "WarPlayerScript$$OnDisable",
+      "Signature": "void WarPlayerScript__OnDisable (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5737936,
+      "Name": "WarPlayerScript$$ResetKillingPlayer",
+      "Signature": "void WarPlayerScript__ResetKillingPlayer (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5709456,
+      "Name": "WarPlayerScript$$OnDestroy",
+      "Signature": "void WarPlayerScript__OnDestroy (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5715392,
+      "Name": "WarPlayerScript$$OnPlayerLeftTeam",
+      "Signature": "void WarPlayerScript__OnPlayerLeftTeam (WarPlayerScript_o* __this, Onward_Networking_OnwardPhotonPlayer_o* player, Onward_TeamManagement_Team_o* team, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5692800,
+      "Name": "WarPlayerScript$$AddCameraIn",
+      "Signature": "System_Collections_IEnumerator_o* WarPlayerScript__AddCameraIn (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5692928,
+      "Name": "WarPlayerScript$$AddCameraNow",
+      "Signature": "void WarPlayerScript__AddCameraNow (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5744320,
+      "Name": "WarPlayerScript$$SetFirstPersonEnabled",
+      "Signature": "void WarPlayerScript__SetFirstPersonEnabled (WarPlayerScript_o* __this, bool isEnabled, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5751184,
+      "Name": "WarPlayerScript$$SetThirdPersonEnabled",
+      "Signature": "void WarPlayerScript__SetThirdPersonEnabled (WarPlayerScript_o* __this, bool isEnabled, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5695344,
+      "Name": "WarPlayerScript$$Awake",
+      "Signature": "void WarPlayerScript__Awake (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5755024,
+      "Name": "WarPlayerScript$$ToggleInvisibleShadowCasterLOD",
+      "Signature": "void WarPlayerScript__ToggleInvisibleShadowCasterLOD (WarPlayerScript_o* __this, bool enable, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5754160,
+      "Name": "WarPlayerScript$$Start",
+      "Signature": "void WarPlayerScript__Start (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5702688,
+      "Name": "WarPlayerScript$$Init",
+      "Signature": "void WarPlayerScript__Init (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5751776,
+      "Name": "WarPlayerScript$$SetupSpectateCamera",
+      "Signature": "void WarPlayerScript__SetupSpectateCamera (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5765152,
+      "Name": "WarPlayerScript$$get_ManagedUpdateRemoval",
+      "Signature": "bool WarPlayerScript__get_ManagedUpdateRemoval (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5767040,
+      "Name": "WarPlayerScript$$set_ManagedUpdateRemoval",
+      "Signature": "void WarPlayerScript__set_ManagedUpdateRemoval (WarPlayerScript_o* __this, bool value, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5712688,
+      "Name": "WarPlayerScript$$OnManagedUpdate",
+      "Signature": "void WarPlayerScript__OnManagedUpdate (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5746032,
+      "Name": "WarPlayerScript$$SetLocalIconColor",
+      "Signature": "void WarPlayerScript__SetLocalIconColor (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5733776,
+      "Name": "WarPlayerScript$$RefreshAllPlayerIcons",
+      "Signature": "void WarPlayerScript__RefreshAllPlayerIcons (const MethodInfo* method);",
+      "TypeSignature": "vi"
+    },
+    {
+      "Address": 5736400,
+      "Name": "WarPlayerScript$$RefreshPlayerIcon",
+      "Signature": "void WarPlayerScript__RefreshPlayerIcon (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5734464,
+      "Name": "WarPlayerScript$$RefreshAllyMapIcon",
+      "Signature": "void WarPlayerScript__RefreshAllyMapIcon (WarPlayerScript_o* __this, bool showIcon, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5734176,
+      "Name": "WarPlayerScript$$RefreshAllyMapColor",
+      "Signature": "void WarPlayerScript__RefreshAllyMapColor (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5736064,
+      "Name": "WarPlayerScript$$RefreshEnemyMapIcon",
+      "Signature": "void WarPlayerScript__RefreshEnemyMapIcon (WarPlayerScript_o* __this, bool showIcon, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5735904,
+      "Name": "WarPlayerScript$$RefreshEnemyMapColor",
+      "Signature": "void WarPlayerScript__RefreshEnemyMapColor (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5693168,
+      "Name": "WarPlayerScript$$ApplyDamage",
+      "Signature": "void WarPlayerScript__ApplyDamage (WarPlayerScript_o* __this, float damage, DPI_Networking_DPIPlayer_o* playerSource, int32_t AISourceID, int32_t damageType, System_Nullable_WeaponName__o* weaponName, const MethodInfo* method);",
+      "TypeSignature": "vifiiiii"
+    },
+    {
+      "Address": 5693360,
+      "Name": "WarPlayerScript$$ApplyDamage",
+      "Signature": "void WarPlayerScript__ApplyDamage (WarPlayerScript_o* __this, float damage, UnityEngine_Vector3_o hitPos, int32_t damagedPart, DPI_Networking_DPIPlayer_o* playerSource, int32_t aiSourceID, int32_t damageType, System_Nullable_WeaponName__o* weaponName, const MethodInfo* method);",
+      "TypeSignature": "vifiiiiiii"
+    },
+    {
+      "Address": 5694880,
+      "Name": "WarPlayerScript$$ApplyTaserDamage",
+      "Signature": "void WarPlayerScript__ApplyTaserDamage (WarPlayerScript_o* __this, Onward_Networking_OnwardPhotonPlayer_o* shooter, int32_t AISourceID, Pickup_o* pickup, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 5717872,
+      "Name": "WarPlayerScript$$RPC_ApplyTaserDamage",
+      "Signature": "void WarPlayerScript__RPC_ApplyTaserDamage (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* shooterOther, int32_t AISourceID, int32_t tasingItemID, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiiiii"
+    },
+    {
+      "Address": 5704512,
+      "Name": "WarPlayerScript$$IsHitInfractable",
+      "Signature": "bool WarPlayerScript__IsHitInfractable (WarPlayerScript_o* __this, bool isTeamDamage, bool isKillingHit, bool isDowningHit, DPI_Networking_DPIPlayer_o* damageSourcePlayer, const MethodInfo* method);",
+      "TypeSignature": "iiiiiii"
+    },
+    {
+      "Address": 5742112,
+      "Name": "WarPlayerScript$$SendHeal",
+      "Signature": "void WarPlayerScript__SendHeal (WarPlayerScript_o* __this, bool bypassDeadCheck, int32_t healingItemID, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5722448,
+      "Name": "WarPlayerScript$$RPC_Heal",
+      "Signature": "void WarPlayerScript__RPC_Heal (WarPlayerScript_o* __this, int32_t healingItemID, DPI_Networking_DPINetworkMessageInfo_o msg, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5705136,
+      "Name": "WarPlayerScript$$LocalHeal",
+      "Signature": "void WarPlayerScript__LocalHeal (WarPlayerScript_o* __this, int32_t healingItemID, DPI_Networking_DPIPlayer_o* healingSource, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5721344,
+      "Name": "WarPlayerScript$$RPC_HealRemote",
+      "Signature": "void WarPlayerScript__RPC_HealRemote (WarPlayerScript_o* __this, int32_t healingItemID, int32_t endState, bool endBleedingState, DPI_Networking_DPIPlayer_o* healingSource, DPI_Networking_DPINetworkMessageInfo_o msg, const MethodInfo* method);",
+      "TypeSignature": "viiiiiii"
+    },
+    {
+      "Address": 5697680,
+      "Name": "WarPlayerScript$$FullyStopBleedingAndEffects",
+      "Signature": "void WarPlayerScript__FullyStopBleedingAndEffects (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5702016,
+      "Name": "WarPlayerScript$$HealScore",
+      "Signature": "void WarPlayerScript__HealScore (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5723888,
+      "Name": "WarPlayerScript$$RPC_SetArmorHP",
+      "Signature": "void WarPlayerScript__RPC_SetArmorHP (WarPlayerScript_o* __this, float newHP, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "vifii"
+    },
+    {
+      "Address": 5745392,
+      "Name": "WarPlayerScript$$SetHP",
+      "Signature": "void WarPlayerScript__SetHP (WarPlayerScript_o* __this, float newHp, DPI_Networking_DPIPlayer_o* damageGiver, int32_t aiSourceID, bool isDead, float damage, int32_t damageType, const MethodInfo* method);",
+      "TypeSignature": "vifiiifii"
+    },
+    {
+      "Address": 5724704,
+      "Name": "WarPlayerScript$$RPC_SetHP",
+      "Signature": "void WarPlayerScript__RPC_SetHP (WarPlayerScript_o* __this, float newHp, DPI_Networking_DPIPlayer_o* playerSource, int32_t aiSourceID, UnityEngine_Vector3_o hitPos, UnityEngine_Vector3_o shootPos, bool isDead, int32_t damagedPart, float damage, int32_t damageType, int32_t weaponName, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "vifiiiiiifiiii"
+    },
+    {
+      "Address": 5702272,
+      "Name": "WarPlayerScript$$IgnoreBleed",
+      "Signature": "void WarPlayerScript__IgnoreBleed (WarPlayerScript_o* __this, bool didTakeDamage, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5754176,
+      "Name": "WarPlayerScript$$StopBleedOnHeal",
+      "Signature": "void WarPlayerScript__StopBleedOnHeal (WarPlayerScript_o* __this, bool didTakeDamage, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5714240,
+      "Name": "WarPlayerScript$$OnPlayerHit",
+      "Signature": "void WarPlayerScript__OnPlayerHit (WarPlayerScript_o* __this, WarPlayerScript_o* player, WarPlayerScript_o* lastDamageGiver, bool killingHit, bool downingHit, bool infractableHit, int32_t damagedPart, UnityEngine_Vector3_o hitPos, UnityEngine_Vector3_o shootPos, float damage, int32_t damageType, int32_t weaponName, const MethodInfo* method);",
+      "TypeSignature": "viiiiiiiiifiii"
+    },
+    {
+      "Address": 5712656,
+      "Name": "WarPlayerScript$$OnLocalDowned",
+      "Signature": "void WarPlayerScript__OnLocalDowned (WarPlayerScript_o* __this, WarPlayerScript_o* lastDamageGiver, bool infractableHit, int32_t damageType, int32_t weaponName, const MethodInfo* method);",
+      "TypeSignature": "viiiiii"
+    },
+    {
+      "Address": 5712240,
+      "Name": "WarPlayerScript$$OnLocalDeath",
+      "Signature": "void WarPlayerScript__OnLocalDeath (WarPlayerScript_o* __this, bool suicide, bool infractableHit, WarPlayerScript_o* lastDamageGiver, int32_t damageType, int32_t weaponName, const MethodInfo* method);",
+      "TypeSignature": "viiiiiii"
+    },
+    {
+      "Address": 5752032,
+      "Name": "WarPlayerScript$$ShowInfractionUI",
+      "Signature": "void WarPlayerScript__ShowInfractionUI (WarPlayerScript_o* __this, WarPlayerScript_o* lastDamageGiver, bool kill, int32_t damageType, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 5744912,
+      "Name": "WarPlayerScript$$SetHPMax",
+      "Signature": "void WarPlayerScript__SetHPMax (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5743536,
+      "Name": "WarPlayerScript$$SetDead",
+      "Signature": "void WarPlayerScript__SetDead (WarPlayerScript_o* __this, int32_t damageType, bool didKillSelf, bool wasTeamKilled, DPI_Networking_DPIPlayer_o* source, const MethodInfo* method);",
+      "TypeSignature": "viiiiii"
+    },
+    {
+      "Address": 5706720,
+      "Name": "WarPlayerScript$$LocalPlayerDied",
+      "Signature": "void WarPlayerScript__LocalPlayerDied (WarPlayerScript_o* __this, int32_t damageType, bool didKillSelf, bool wasTeamKilled, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 5716288,
+      "Name": "WarPlayerScript$$PainStopVoice",
+      "Signature": "void WarPlayerScript__PainStopVoice (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5715808,
+      "Name": "WarPlayerScript$$PainPlayCry",
+      "Signature": "void WarPlayerScript__PainPlayCry (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5716128,
+      "Name": "WarPlayerScript$$PainPlayGrunt",
+      "Signature": "void WarPlayerScript__PainPlayGrunt (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5707728,
+      "Name": "WarPlayerScript$$OnCasualtyUIVisible",
+      "Signature": "void WarPlayerScript__OnCasualtyUIVisible (WarPlayerScript_o* __this, int32_t casualtyUI, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5745888,
+      "Name": "WarPlayerScript$$SetLastDamage",
+      "Signature": "void WarPlayerScript__SetLastDamage (WarPlayerScript_o* __this, int32_t newType, System_Nullable_WeaponName__o newWeapon, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5715968,
+      "Name": "WarPlayerScript$$PainPlayDrown",
+      "Signature": "void WarPlayerScript__PainPlayDrown (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5699616,
+      "Name": "WarPlayerScript$$GetKilledByText",
+      "Signature": "System_String_o* WarPlayerScript__GetKilledByText (WarPlayerScript_o* __this, int32_t damageType, const MethodInfo* method);",
+      "TypeSignature": "iiii"
+    },
+    {
+      "Address": 5699376,
+      "Name": "WarPlayerScript$$GetDownedByText",
+      "Signature": "System_String_o* WarPlayerScript__GetDownedByText (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5737376,
+      "Name": "WarPlayerScript$$ResetBody",
+      "Signature": "void WarPlayerScript__ResetBody (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5737920,
+      "Name": "WarPlayerScript$$ResetKarmaDialogTime",
+      "Signature": "void WarPlayerScript__ResetKarmaDialogTime (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5696400,
+      "Name": "WarPlayerScript$$DeathTransition",
+      "Signature": "System_Collections_IEnumerator_o* WarPlayerScript__DeathTransition (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5696096,
+      "Name": "WarPlayerScript$$BleedOut",
+      "Signature": "System_Collections_IEnumerator_o* WarPlayerScript__BleedOut (WarPlayerScript_o* __this, float waitTime, const MethodInfo* method);",
+      "TypeSignature": "iifi"
+    },
+    {
+      "Address": 5754384,
+      "Name": "WarPlayerScript$$StopBleedOut",
+      "Signature": "void WarPlayerScript__StopBleedOut (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5738336,
+      "Name": "WarPlayerScript$$Respawn",
+      "Signature": "void WarPlayerScript__Respawn (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5745696,
+      "Name": "WarPlayerScript$$SetInvincibility",
+      "Signature": "void WarPlayerScript__SetInvincibility (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5733328,
+      "Name": "WarPlayerScript$$RPC_UpdateMe",
+      "Signature": "void WarPlayerScript__RPC_UpdateMe (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* requestFrom, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5729984,
+      "Name": "WarPlayerScript$$RPC_ThisPlayerState",
+      "Signature": "void WarPlayerScript__RPC_ThisPlayerState (WarPlayerScript_o* __this, float realHp, float armorHP, bool isDead, bool realspawn, UnityEngine_Vector3_o pos, bool isragdoll, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viffiiiiii"
+    },
+    {
+      "Address": 5696704,
+      "Name": "WarPlayerScript$$DownPlayer",
+      "Signature": "void WarPlayerScript__DownPlayer (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5757296,
+      "Name": "WarPlayerScript$$UnDownPlayer",
+      "Signature": "void WarPlayerScript__UnDownPlayer (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5747184,
+      "Name": "WarPlayerScript$$SetRagdollActive",
+      "Signature": "void WarPlayerScript__SetRagdollActive (WarPlayerScript_o* __this, bool isRagdoll, DPI_Networking_DPIPlayer_o* source, bool dropEquipment, const MethodInfo* method);",
+      "TypeSignature": "viiiii"
+    },
+    {
+      "Address": 5760272,
+      "Name": "WarPlayerScript$$UpdateHandModels",
+      "Signature": "void WarPlayerScript__UpdateHandModels (WarPlayerScript_o* __this, bool setActive, bool makeTranslucent, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5750320,
+      "Name": "WarPlayerScript$$SetState",
+      "Signature": "void WarPlayerScript__SetState (WarPlayerScript_o* __this, int32_t newState, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5704672,
+      "Name": "WarPlayerScript$$IsRevivable",
+      "Signature": "bool WarPlayerScript__IsRevivable (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5737248,
+      "Name": "WarPlayerScript$$RefreshShadows",
+      "Signature": "void WarPlayerScript__RefreshShadows (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5697024,
+      "Name": "WarPlayerScript$$FlashMe",
+      "Signature": "void WarPlayerScript__FlashMe (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5732464,
+      "Name": "WarPlayerScript$$RPC_TinitusMe",
+      "Signature": "void WarPlayerScript__RPC_TinitusMe (WarPlayerScript_o* __this, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5697120,
+      "Name": "WarPlayerScript$$FlashStart",
+      "Signature": "System_Collections_IEnumerator_o* WarPlayerScript__FlashStart (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5753920,
+      "Name": "WarPlayerScript$$StartTinitus",
+      "Signature": "void WarPlayerScript__StartTinitus (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5696512,
+      "Name": "WarPlayerScript$$DelayDisableTinitus",
+      "Signature": "System_Collections_IEnumerator_o* WarPlayerScript__DelayDisableTinitus (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5737600,
+      "Name": "WarPlayerScript$$ResetGear",
+      "Signature": "void WarPlayerScript__ResetGear (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5696624,
+      "Name": "WarPlayerScript$$DisableObject",
+      "Signature": "void WarPlayerScript__DisableObject (WarPlayerScript_o* __this, UnityEngine_GameObject_o* g, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5704800,
+      "Name": "WarPlayerScript$$LoadVisuals",
+      "Signature": "void WarPlayerScript__LoadVisuals (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5757568,
+      "Name": "WarPlayerScript$$UpdateFakeLights",
+      "Signature": "void WarPlayerScript__UpdateFakeLights (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5736352,
+      "Name": "WarPlayerScript$$RefreshOutfit",
+      "Signature": "void WarPlayerScript__RefreshOutfit (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5746672,
+      "Name": "WarPlayerScript$$SetOutfit",
+      "Signature": "void WarPlayerScript__SetOutfit (WarPlayerScript_o* __this, int32_t soldierClass, int32_t faction, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5752832,
+      "Name": "WarPlayerScript$$ShowWatchVisuals",
+      "Signature": "void WarPlayerScript__ShowWatchVisuals (WarPlayerScript_o* __this, bool show, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5754464,
+      "Name": "WarPlayerScript$$SynchronizeVIPState",
+      "Signature": "void WarPlayerScript__SynchronizeVIPState (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5753664,
+      "Name": "WarPlayerScript$$SpectateMe",
+      "Signature": "void WarPlayerScript__SpectateMe (WarPlayerScript_o* __this, bool toSpectate, bool thirdPerson, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5697856,
+      "Name": "WarPlayerScript$$GetBarrelPosition",
+      "Signature": "UnityEngine_Vector3_o WarPlayerScript__GetBarrelPosition (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5716416,
+      "Name": "WarPlayerScript$$PlayerShot",
+      "Signature": "void WarPlayerScript__PlayerShot (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5697232,
+      "Name": "WarPlayerScript$$ForceActivateLocalWarPlayer",
+      "Signature": "void WarPlayerScript__ForceActivateLocalWarPlayer (const MethodInfo* method);",
+      "TypeSignature": "vi"
+    },
+    {
+      "Address": 5738320,
+      "Name": "WarPlayerScript$$ResetSpawnAudioImmunity",
+      "Signature": "void WarPlayerScript__ResetSpawnAudioImmunity (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5746272,
+      "Name": "WarPlayerScript$$SetNameColor",
+      "Signature": "void WarPlayerScript__SetNameColor (WarPlayerScript_o* __this, UnityEngine_Color_o color, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5737328,
+      "Name": "WarPlayerScript$$RemovePlayerEntry",
+      "Signature": "void WarPlayerScript__RemovePlayerEntry (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5723840,
+      "Name": "WarPlayerScript$$SetManualInvincibility",
+      "Signature": "void WarPlayerScript__SetManualInvincibility (WarPlayerScript_o* __this, bool invincible, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5755248,
+      "Name": "WarPlayerScript$$ToggleManualInvincibility",
+      "Signature": "void WarPlayerScript__ToggleManualInvincibility (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5743088,
+      "Name": "WarPlayerScript$$SetAllManuallyInvincible",
+      "Signature": "void WarPlayerScript__SetAllManuallyInvincible (bool invincible, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5723840,
+      "Name": "WarPlayerScript$$RPC_ManualInvincibility",
+      "Signature": "void WarPlayerScript__RPC_ManualInvincibility (WarPlayerScript_o* __this, bool invincible, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5729152,
+      "Name": "WarPlayerScript$$RPC_Targetability",
+      "Signature": "void WarPlayerScript__RPC_Targetability (WarPlayerScript_o* __this, bool targetable, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5742896,
+      "Name": "WarPlayerScript$$SendWhistle",
+      "Signature": "void WarPlayerScript__SendWhistle (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5716976,
+      "Name": "WarPlayerScript$$RPC_AIWhistle",
+      "Signature": "void WarPlayerScript__RPC_AIWhistle (WarPlayerScript_o* __this, DPI_Networking_DPINetworkMessageInfo_o msg, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5696800,
+      "Name": "WarPlayerScript$$EnableDebugInvincibility",
+      "Signature": "void WarPlayerScript__EnableDebugInvincibility (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5754704,
+      "Name": "WarPlayerScript$$ToggleDebugTargetability",
+      "Signature": "void WarPlayerScript__ToggleDebugTargetability (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5702496,
+      "Name": "WarPlayerScript$$InflictDamageToSelf",
+      "Signature": "void WarPlayerScript__InflictDamageToSelf (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 3850752,
+      "Name": "WarPlayerScript$$UpdateEditorHotkeys",
+      "Signature": "void WarPlayerScript__UpdateEditorHotkeys (WarPlayerScript_o* __this, bool shift, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5757728,
+      "Name": "WarPlayerScript$$UpdateGeneralHotkeys",
+      "Signature": "void WarPlayerScript__UpdateGeneralHotkeys (WarPlayerScript_o* __this, bool shift, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5698656,
+      "Name": "WarPlayerScript$$GetDebugLookObject",
+      "Signature": "System_String_o* WarPlayerScript__GetDebugLookObject (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "iii"
+    },
+    {
+      "Address": 5701344,
+      "Name": "WarPlayerScript$$GetSurvivalScore",
+      "Signature": "float WarPlayerScript__GetSurvivalScore (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "fii"
+    },
+    {
+      "Address": 5700720,
+      "Name": "WarPlayerScript$$GetSurvivalMultiplier",
+      "Signature": "float WarPlayerScript__GetSurvivalMultiplier (int32_t faction, const MethodInfo* method);",
+      "TypeSignature": "fii"
+    },
+    {
+      "Address": 5755728,
+      "Name": "WarPlayerScript$$\u0394\u03B4\u03B4_R_RPC_ApplyTaserDamage",
+      "Signature": "void WarPlayerScript______R_RPC_ApplyTaserDamage (WarPlayerScript_o* __this, WarPlayerScript_____S_RPC_ApplyTaserDamage_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5717616,
+      "Name": "WarPlayerScript$$RPC_ApplyTaserDamage",
+      "Signature": "void WarPlayerScript__RPC_ApplyTaserDamage (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, DPI_Networking_DPIPlayer_o* shooterOther, int32_t AISourceID, int32_t tasingItemID, const MethodInfo* method);",
+      "TypeSignature": "viiiiii"
+    },
+    {
+      "Address": 5719968,
+      "Name": "WarPlayerScript$$RPC_ApplyTaserDamage",
+      "Signature": "void WarPlayerScript__RPC_ApplyTaserDamage (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, DPI_Networking_DPIPlayer_o* shooterOther, int32_t AISourceID, int32_t tasingItemID, const MethodInfo* method);",
+      "TypeSignature": "viiiiii"
+    },
+    {
+      "Address": 5720224,
+      "Name": "WarPlayerScript$$RPC_ApplyTaserDamage",
+      "Signature": "void WarPlayerScript__RPC_ApplyTaserDamage (WarPlayerScript_o* __this, int32_t invokeRpcTarget, DPI_Networking_DPIPlayer_o* shooterOther, int32_t AISourceID, int32_t tasingItemID, const MethodInfo* method);",
+      "TypeSignature": "viiiiii"
+    },
+    {
+      "Address": 5755856,
+      "Name": "WarPlayerScript$$\u0394\u03B4\u03B4_R_RPC_Heal",
+      "Signature": "void WarPlayerScript______R_RPC_Heal (WarPlayerScript_o* __this, WarPlayerScript_____S_RPC_Heal_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5723008,
+      "Name": "WarPlayerScript$$RPC_Heal",
+      "Signature": "void WarPlayerScript__RPC_Heal (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, int32_t healingItemID, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5722800,
+      "Name": "WarPlayerScript$$RPC_Heal",
+      "Signature": "void WarPlayerScript__RPC_Heal (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, int32_t healingItemID, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5722240,
+      "Name": "WarPlayerScript$$RPC_Heal",
+      "Signature": "void WarPlayerScript__RPC_Heal (WarPlayerScript_o* __this, int32_t invokeRpcTarget, int32_t healingItemID, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5755792,
+      "Name": "WarPlayerScript$$\u0394\u03B4\u03B4_R_RPC_HealRemote",
+      "Signature": "void WarPlayerScript______R_RPC_HealRemote (WarPlayerScript_o* __this, WarPlayerScript_____S_RPC_HealRemote_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5720480,
+      "Name": "WarPlayerScript$$RPC_HealRemote",
+      "Signature": "void WarPlayerScript__RPC_HealRemote (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, int32_t healingItemID, int32_t endState, bool endBleedingState, DPI_Networking_DPIPlayer_o* healingSource, const MethodInfo* method);",
+      "TypeSignature": "viiiiiii"
+    },
+    {
+      "Address": 5721056,
+      "Name": "WarPlayerScript$$RPC_HealRemote",
+      "Signature": "void WarPlayerScript__RPC_HealRemote (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, int32_t healingItemID, int32_t endState, bool endBleedingState, DPI_Networking_DPIPlayer_o* healingSource, const MethodInfo* method);",
+      "TypeSignature": "viiiiiii"
+    },
+    {
+      "Address": 5720768,
+      "Name": "WarPlayerScript$$RPC_HealRemote",
+      "Signature": "void WarPlayerScript__RPC_HealRemote (WarPlayerScript_o* __this, int32_t invokeRpcTarget, int32_t healingItemID, int32_t endState, bool endBleedingState, DPI_Networking_DPIPlayer_o* healingSource, const MethodInfo* method);",
+      "TypeSignature": "viiiiiii"
+    },
+    {
+      "Address": 5756208,
+      "Name": "WarPlayerScript$$\u0394\u03B4\u03B4_R_RPC_SetArmorHP",
+      "Signature": "void WarPlayerScript______R_RPC_SetArmorHP (WarPlayerScript_o* __this, WarPlayerScript_____S_RPC_SetArmorHP_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5724032,
+      "Name": "WarPlayerScript$$RPC_SetArmorHP",
+      "Signature": "void WarPlayerScript__RPC_SetArmorHP (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, float newHP, const MethodInfo* method);",
+      "TypeSignature": "viifi"
+    },
+    {
+      "Address": 5724256,
+      "Name": "WarPlayerScript$$RPC_SetArmorHP",
+      "Signature": "void WarPlayerScript__RPC_SetArmorHP (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, float newHP, const MethodInfo* method);",
+      "TypeSignature": "viifi"
+    },
+    {
+      "Address": 5724480,
+      "Name": "WarPlayerScript$$RPC_SetArmorHP",
+      "Signature": "void WarPlayerScript__RPC_SetArmorHP (WarPlayerScript_o* __this, int32_t invokeRpcTarget, float newHP, const MethodInfo* method);",
+      "TypeSignature": "viifi"
+    },
+    {
+      "Address": 5756368,
+      "Name": "WarPlayerScript$$\u0394\u03B4\u03B4_R_RPC_SetHP",
+      "Signature": "void WarPlayerScript______R_RPC_SetHP (WarPlayerScript_o* __this, WarPlayerScript_____S_RPC_SetHP_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5728752,
+      "Name": "WarPlayerScript$$RPC_SetHP",
+      "Signature": "void WarPlayerScript__RPC_SetHP (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, float newHp, DPI_Networking_DPIPlayer_o* playerSource, int32_t aiSourceID, UnityEngine_Vector3_o hitPos, UnityEngine_Vector3_o shootPos, bool isDead, int32_t damagedPart, float damage, int32_t damageType, int32_t weaponName, const MethodInfo* method);",
+      "TypeSignature": "viifiiiiiifiii"
+    },
+    {
+      "Address": 5727952,
+      "Name": "WarPlayerScript$$RPC_SetHP",
+      "Signature": "void WarPlayerScript__RPC_SetHP (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, float newHp, DPI_Networking_DPIPlayer_o* playerSource, int32_t aiSourceID, UnityEngine_Vector3_o hitPos, UnityEngine_Vector3_o shootPos, bool isDead, int32_t damagedPart, float damage, int32_t damageType, int32_t weaponName, const MethodInfo* method);",
+      "TypeSignature": "viifiiiiiifiii"
+    },
+    {
+      "Address": 5728352,
+      "Name": "WarPlayerScript$$RPC_SetHP",
+      "Signature": "void WarPlayerScript__RPC_SetHP (WarPlayerScript_o* __this, int32_t invokeRpcTarget, float newHp, DPI_Networking_DPIPlayer_o* playerSource, int32_t aiSourceID, UnityEngine_Vector3_o hitPos, UnityEngine_Vector3_o shootPos, bool isDead, int32_t damagedPart, float damage, int32_t damageType, int32_t weaponName, const MethodInfo* method);",
+      "TypeSignature": "viifiiiiiifiii"
+    },
+    {
+      "Address": 5756848,
+      "Name": "WarPlayerScript$$\u0394\u03B4\u03B4_R_RPC_UpdateMe",
+      "Signature": "void WarPlayerScript______R_RPC_UpdateMe (WarPlayerScript_o* __this, WarPlayerScript_____S_RPC_UpdateMe_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5732656,
+      "Name": "WarPlayerScript$$RPC_UpdateMe",
+      "Signature": "void WarPlayerScript__RPC_UpdateMe (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, DPI_Networking_DPIPlayer_o* requestFrom, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5733104,
+      "Name": "WarPlayerScript$$RPC_UpdateMe",
+      "Signature": "void WarPlayerScript__RPC_UpdateMe (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, DPI_Networking_DPIPlayer_o* requestFrom, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5732880,
+      "Name": "WarPlayerScript$$RPC_UpdateMe",
+      "Signature": "void WarPlayerScript__RPC_UpdateMe (WarPlayerScript_o* __this, int32_t invokeRpcTarget, DPI_Networking_DPIPlayer_o* requestFrom, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5756736,
+      "Name": "WarPlayerScript$$\u0394\u03B4\u03B4_R_RPC_ThisPlayerState",
+      "Signature": "void WarPlayerScript______R_RPC_ThisPlayerState (WarPlayerScript_o* __this, WarPlayerScript_____S_RPC_ThisPlayerState_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5731072,
+      "Name": "WarPlayerScript$$RPC_ThisPlayerState",
+      "Signature": "void WarPlayerScript__RPC_ThisPlayerState (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, float realHp, float armorHP, bool isDead, bool realspawn, UnityEngine_Vector3_o pos, bool isragdoll, const MethodInfo* method);",
+      "TypeSignature": "viiffiiiii"
+    },
+    {
+      "Address": 5730688,
+      "Name": "WarPlayerScript$$RPC_ThisPlayerState",
+      "Signature": "void WarPlayerScript__RPC_ThisPlayerState (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, float realHp, float armorHP, bool isDead, bool realspawn, UnityEngine_Vector3_o pos, bool isragdoll, const MethodInfo* method);",
+      "TypeSignature": "viiffiiiii"
+    },
+    {
+      "Address": 5731456,
+      "Name": "WarPlayerScript$$RPC_ThisPlayerState",
+      "Signature": "void WarPlayerScript__RPC_ThisPlayerState (WarPlayerScript_o* __this, int32_t invokeRpcTarget, float realHp, float armorHP, bool isDead, bool realspawn, UnityEngine_Vector3_o pos, bool isragdoll, const MethodInfo* method);",
+      "TypeSignature": "viiffiiiii"
+    },
+    {
+      "Address": 5732464,
+      "Name": "WarPlayerScript$$\u0394\u03B4\u03B4_R_RPC_TinitusMe",
+      "Signature": "void WarPlayerScript______R_RPC_TinitusMe (WarPlayerScript_o* __this, WarPlayerScript_____S_RPC_TinitusMe_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5731840,
+      "Name": "WarPlayerScript$$RPC_TinitusMe",
+      "Signature": "void WarPlayerScript__RPC_TinitusMe (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5732256,
+      "Name": "WarPlayerScript$$RPC_TinitusMe",
+      "Signature": "void WarPlayerScript__RPC_TinitusMe (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5732048,
+      "Name": "WarPlayerScript$$RPC_TinitusMe",
+      "Signature": "void WarPlayerScript__RPC_TinitusMe (WarPlayerScript_o* __this, int32_t invokeRpcTarget, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5723840,
+      "Name": "WarPlayerScript$$\u0394\u03B4\u03B4_R_RPC_ManualInvincibility",
+      "Signature": "void WarPlayerScript______R_RPC_ManualInvincibility (WarPlayerScript_o* __this, WarPlayerScript_____S_RPC_ManualInvincibility_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5723216,
+      "Name": "WarPlayerScript$$RPC_ManualInvincibility",
+      "Signature": "void WarPlayerScript__RPC_ManualInvincibility (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, bool invincible, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5723632,
+      "Name": "WarPlayerScript$$RPC_ManualInvincibility",
+      "Signature": "void WarPlayerScript__RPC_ManualInvincibility (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, bool invincible, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5723424,
+      "Name": "WarPlayerScript$$RPC_ManualInvincibility",
+      "Signature": "void WarPlayerScript__RPC_ManualInvincibility (WarPlayerScript_o* __this, int32_t invokeRpcTarget, bool invincible, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5756528,
+      "Name": "WarPlayerScript$$\u0394\u03B4\u03B4_R_RPC_Targetability",
+      "Signature": "void WarPlayerScript______R_RPC_Targetability (WarPlayerScript_o* __this, WarPlayerScript_____S_RPC_Targetability_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5729776,
+      "Name": "WarPlayerScript$$RPC_Targetability",
+      "Signature": "void WarPlayerScript__RPC_Targetability (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, bool targetable, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5729360,
+      "Name": "WarPlayerScript$$RPC_Targetability",
+      "Signature": "void WarPlayerScript__RPC_Targetability (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, bool targetable, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5729568,
+      "Name": "WarPlayerScript$$RPC_Targetability",
+      "Signature": "void WarPlayerScript__RPC_Targetability (WarPlayerScript_o* __this, int32_t invokeRpcTarget, bool targetable, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5755296,
+      "Name": "WarPlayerScript$$\u0394\u03B4\u03B4_R_RPC_AIWhistle",
+      "Signature": "void WarPlayerScript______R_RPC_AIWhistle (WarPlayerScript_o* __this, WarPlayerScript_____S_RPC_AIWhistle_o tmp, DPI_Networking_DPINetworkMessageInfo_o info, const MethodInfo* method);",
+      "TypeSignature": "viiii"
+    },
+    {
+      "Address": 5716560,
+      "Name": "WarPlayerScript$$RPC_AIWhistle",
+      "Signature": "void WarPlayerScript__RPC_AIWhistle (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_array* invokeRpcPlayerTargets, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5716768,
+      "Name": "WarPlayerScript$$RPC_AIWhistle",
+      "Signature": "void WarPlayerScript__RPC_AIWhistle (WarPlayerScript_o* __this, DPI_Networking_DPIPlayer_o* invokeRpcPlayerTarget, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5717408,
+      "Name": "WarPlayerScript$$RPC_AIWhistle",
+      "Signature": "void WarPlayerScript__RPC_AIWhistle (WarPlayerScript_o* __this, int32_t invokeRpcTarget, const MethodInfo* method);",
+      "TypeSignature": "viii"
+    },
+    {
+      "Address": 5707776,
+      "Name": "WarPlayerScript$$OnCodeGenInitializeHook",
+      "Signature": "void WarPlayerScript__OnCodeGenInitializeHook (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5762256,
+      "Name": "WarPlayerScript$$.ctor",
+      "Signature": "void WarPlayerScript___ctor (WarPlayerScript_o* __this, const MethodInfo* method);",
+      "TypeSignature": "vii"
+    },
+    {
+      "Address": 5761856,
+      "Name": "WarPlayerScript$$.cctor",
+      "Signature": "void WarPlayerScript___cctor (const MethodInfo* method);",
+      "TypeSignature": "vi"
+    }
+  ]
+}
